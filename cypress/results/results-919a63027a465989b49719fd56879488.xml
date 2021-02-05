@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.1390" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-02-05T16:09:59" tests="0" file="cypress/integration/jsonObjects.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="JSON objects" timestamp="2021-02-05T16:09:59" tests="1" time="2.1390" failures="0">
+    <testcase name="JSON objects JSON objects" time="2.1390" classname="JSON objects">
+    </testcase>
+  </testsuite>
+</testsuites>

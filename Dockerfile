@@ -1,12 +1,13 @@
-FROM baseImage cypress/base:12.18.3
+FROM cypress/base:10.18.0
 
 RUN mkdir /app
+
 WORKDIR /app
 
 COPY . /app
 
-RUN npm install
+RUN npm install --save-dev cypress
 
 RUN $(npm bin)/cypress verify
 
-RUN {"npm", "run", "cypress:e2e"}
+RUN ["npm", "run", "cypress:e2e"]

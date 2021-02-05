@@ -1,6 +1,16 @@
 {
-   "baseUrl": "http://localhost:4200",
-   "ignoreTestFiles": "**/examples/*",
-   "viewportHeight": 1080,
-   "viewportWidth": 1920
+  "baseUrl": "http://localhost:4200",
+  "ignoreTestFiles": "**/examples/*",
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "video": true,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "projectId": "c1j4qx"
 }

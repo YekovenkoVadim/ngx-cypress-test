@@ -4,6 +4,7 @@ import { onFormLayoutsPage } from "../support/page_objects/formLayoutsPage";
 import { onDatepickerPage } from "../support/page_objects/datepickerPage";
 import { onSmartTablePage } from "../support/page_objects/smartTablePage";
 
+//! Define which browser is sed and ignored:
 const runOn = (browser, fn) => {
   if (Cypress.isBrowser(browser)) {
     fn()
